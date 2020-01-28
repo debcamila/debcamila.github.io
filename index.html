@@ -1,37 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Deborah Camila</title>
-    <meta charset="uft-8" />
-    <link rel="stylessheet" type="text.css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul type="menu1">
-          <li id="home"><a href="index.html">Home</a></li>
-          <li><a href ="#meusTrabalhos">Meus trabalhos</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="profile">
-        <img src="img/profile.jpg" alt="profile">
-      </div>
-    </header> 
-    <section id="meustrabalhos">
-       <h2>Meus trabalhos</h2>
-       <p>Lorem ipsum dolor sit amet...</p>
-    </section>
-    <section id="sobre">
-      <h2>Quem sou?</h2>
-      <p>Lorem ipsum dolor sit amet...</p>
-    </section>
-    <section id="contato">
-      <h2>Contato</h2>
-      <h3>E-mail:contato@gmail.com</h3>
-      <h3>Telefone:(81)xxxxx-xxxx</h3>
-      <h3>Endereco:XXXX</h3>
-    </section>
-  </body>  
+    <head>
+        <title>Portifólio Deborah Camila</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <header class="menu-bg">
+            <div class="menu">
+                <div class="menu-logo">
+                    <a href="#">Deborah Camila</a>
+                </div>
+                <nav class="menu-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--<h1 class="introducao">Oi! Eu sou a Deborah.</h1>-->
+
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-info">
+                <h1>Sobre</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nisi aperiam sit recusandae aspernatur nulla assumenda architecto eveniet.</p>
+            </div>
+            <div class="sobre-img">
+                <img src="img/profile.jpg" alt="deborah's profile">
+            </div>
+            <div class="sobre-img">
+                <img src="img/group.jpeg" alt="group's photo">
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <div class="projetos-item">
+                <h2>titulo 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nisi aperiam sit recusandae aspernatur nulla assumenda architecto eveniet. </p>
+            </div>
+            
+            <div class="projetos-item">
+                <h2>titulo 2</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nisi aperiam sit recusandae aspernatur nulla assumenda architecto eveniet.</p>
+            </div>
+            
+            <div class="projetos-item">
+                <h2>titulo 3</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nisi aperiam sit recusandae aspernatur nulla assumenda architecto eveniet.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="row section">
+            <ul class="icons">
+                <li class="icons__li">
+                    <a class="icons__a" href="#" target="_blank">
+                        <img class="icons__img" src="img/codepen-icon.png" alt="codepen icon">
+                    </a>
+                </li>
+                <li class="icons__li">
+                    <a class="icons__a" href="#" target="_blank">
+                        <img class="icons__img" src="img/email.png" alt="email icon">
+                    </a>
+                </li>
+                <li class="icons__li">
+                    <a class="icons__a" href="#" target="_blank">
+                        <img class="icons__img" src="img/github.png" alt="github icon">
+                    </a>
+                </li>
+                <li class="icons__li">
+                    <a class="icons__a" href="#" target="_blank">
+                        <img class="icons__img" src="img/linkedin.png" alt="linkedin icon">
+                    </a>
+                </li>
+                <li class="icons__li">
+                    <a class="icons__a" href="#" target="_blank">
+                        <img class="icons__img" src="img/twitter.png" alt="twitter icon">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <footer class="footer">
+            <p>© 2020 Deborah Camila</p>
+        </footer>
+    </body>
 </html>
